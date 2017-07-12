@@ -193,7 +193,7 @@
             //GET 
             function getReq(){
                 $.ajax({
-                    tpye: 'GET',
+                    type: 'GET',
                     url: 'http://rest.learncode.academy/api/johnbob/test',
                     success: function(data){
                         //plugs in the data to the page
@@ -213,7 +213,7 @@
                         alert('Failed to load data from API');
                     }
                 })
-            }; //end of gettReq
+            }; //end of getReq
             
             //delete 'x' btn event listener
             //delegating the on click even to the parent element so that any future
